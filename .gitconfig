@@ -1,0 +1,28 @@
+[user]
+    name = Charandeep S. Matta
+    email = charandeep.matta@gmail.com
+[alias]
+    a = add
+    b = branch
+    co = checkout
+    ci = commit -s
+    cia = commit --amend
+    cian = commit --amend --no-edit
+    cianv = commit --amend --no-edit --no-verify
+    cinv = commit --no-verify
+    cl = clone
+    cp = cherry-pick
+    d = diff
+    dc = diff --cached
+    l = log
+    p = push
+    pnv = push --no-verify
+    pr = pull --rebase
+    rh = reset --hard
+    rpo = remote prune origin
+    s = status
+    st = stash
+    stp = stash pop
+    unup = branch --unset-upstream
+    wipe = clean -xdf
+    cp = cherry-pick

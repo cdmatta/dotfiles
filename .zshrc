@@ -24,8 +24,16 @@ zinit light zsh-users/zsh-completions
 zinit light Aloxaf/fzf-tab
 
 # Add in snippets
-zinit snippet OMZP::git
+zinit snippet OMZP::alias-finder
+zinit snippet OMZP::colored-man-pages
+zinit snippet OMZP::colorize
+zinit snippet OMZP::docker
+zinit snippet OMZP::docker-compose
 zinit snippet OMZP::command-not-found
+zinit snippet OMZP::common-aliases
+zinit snippet OMZP::copyfile
+zinit snippet OMZP::copypath
+zinit snippet OMZP::git
 
 # Load completions
 autoload -Uz compinit && compinit
