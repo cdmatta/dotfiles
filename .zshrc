@@ -1,5 +1,5 @@
 # Add deno completions to search path
-if [[ ":$FPATH:" != *":/home/cmatta/.zsh/completions:"* ]]; then export FPATH="/home/cmatta/.zsh/completions:$FPATH"; fi
+if [[ ":$FPATH:" != *":${HOME}/.zsh/completions:"* ]]; then export FPATH="${HOME}/.zsh/completions:$FPATH"; fi
 export EDITOR=nvim
 
 # Set the directory we want to store zinit and plugins
@@ -76,7 +76,13 @@ eval "$(fzf --zsh)"
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
+# NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-. "/home/cmatta/.deno/env"
+
+# Deno
+. "${HOME}/.deno/env"
+
+# Asdf
+. "${HOME}/.asdf/asdf.sh"
