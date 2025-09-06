@@ -15,6 +15,7 @@
     d = diff
     dc = diff --cached
     l = log
+    lo = log --oneline
     p = push
     pnv = push --no-verify
     pr = pull --rebase

@@ -29,8 +29,6 @@ zinit light Aloxaf/fzf-tab
 zinit snippet OMZP::alias-finder
 zinit snippet OMZP::colored-man-pages
 zinit snippet OMZP::colorize
-zinit snippet OMZP::docker
-zinit snippet OMZP::docker-compose
 zinit snippet OMZP::command-not-found
 zinit snippet OMZP::common-aliases
 zinit snippet OMZP::copyfile
@@ -84,5 +82,7 @@ export NVM_DIR="$HOME/.nvm"
 # Deno
 . "${HOME}/.deno/env"
 
-# Asdf
-. "${HOME}/.asdf/asdf.sh"
+# Created by `pipx` on 2024-11-09 08:24:17
+export PATH="$PATH:/home/cmatta/.local/bin"
+
+export PATH=$PATH:/usr/local/go/bin:${HOME}/go/bin
